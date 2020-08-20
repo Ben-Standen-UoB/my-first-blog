@@ -1,5 +1,5 @@
 h1 a, h2 a {
-    color: #0ac0c0;
+    color: #c04d0a;
     font-family: 'Lobster';
 }
 
@@ -8,8 +8,14 @@ body {
 }
 
 .page-header {
-    background-color: #06e6da;
+    background-color: #0ca39c;
     margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-footer {
+    background-color: #0ca39c;
+    margin-bottom: 0;
     padding: 20px 20px 20px 40px;
 }
 
@@ -21,10 +27,20 @@ body {
 
 .content {
     margin-left: 40px;
+    margin-bottom: 20px;
+    background-color: #06e6db27;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
+}
+
+h4 {
+    color: #e6e4e4;
+}
+
+h5 {
+    color: #ffffff;
 }
 
 .date {
@@ -40,7 +56,7 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
+    color: #eba352;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
@@ -51,5 +67,9 @@ h1, h2, h3, h4 {
 }
 
 .post h2 a, .post h2 a:visited {
-    color: #015854;
+    color: #0c508f;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }
